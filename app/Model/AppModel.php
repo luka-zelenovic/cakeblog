@@ -20,7 +20,7 @@
  */
 
 App::uses('Model', 'Model');
-
+App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
 /**
  * Application model for Cake.
  *
